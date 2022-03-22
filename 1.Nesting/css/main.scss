@@ -1,0 +1,27 @@
+body {
+    background-color: seashell
+}
+/* ini adalah nesting nesting adalah sebagai menu utama */
+.main {
+    background-color: lightblue;
+
+    &-heading {
+    font-size: 2em;
+    }
+    &-paragraf{
+
+        font-size: 1.4em;
+    }
+    &:hover {
+        background-color: green;
+    }
+
+
+}
+.main,footer{
+    h1,p {
+        letter-spacing: 1px;
+    }   
+
+
+}
