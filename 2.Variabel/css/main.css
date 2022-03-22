@@ -1,0 +1,16 @@
+/* Ketika ingin membuat variabel gunakan root diawal */
+/* SASS Variabels */
+/* perilaku sass akan menganggap sama - _ 
+tidak bisa menggunakan diluar scope dan hanya bisa digunakan local saja
+
+bisa gunakan juga untuk global dengan cara ditambahkan global !global
+
+ketika menggunakan nama yg sama local dan global maka yang diglobal akan ditimpa
+
+*/
+/* gunakan $ */
+/* MAP */
+h1 {
+  color: green;
+}
+/*# sourceMappingURL=main.css.map */

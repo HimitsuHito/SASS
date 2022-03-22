@@ -1,0 +1,58 @@
+/* Ketika ingin membuat variabel gunakan root diawal */
+
+
+// :root {
+//     --warna-utama:gray;
+//     --warna-kedua:green;
+//     --text-color: lightblue;
+// }
+// body {
+//     background-color:var(--warna-utama) ;
+// }
+// h2 {
+//     color:var(--text-color);
+// }
+// p{
+//     color:var(--warna-kedua);
+// }
+
+/* SASS Variabels */
+/* perilaku sass akan menganggap sama - _ 
+tidak bisa menggunakan diluar scope dan hanya bisa digunakan local saja
+
+bisa gunakan juga untuk global dengan cara ditambahkan global !global
+
+ketika menggunakan nama yg sama local dan global maka yang diglobal akan ditimpa
+
+*/
+/* gunakan $ */
+
+// $warna-kedua:blue;
+// $warna-text:lightblue;
+// $warna-utama:blue;
+// body {
+//     $warna-utama:grey!global;
+//     background-color:$warna_utama ;
+// }
+// h2{
+//     color:$warna-utama
+// }
+
+/* MAP */
+// variabel bisa menjadi kompleks ketika menggunakan map
+// cara memanggil map dengan menggunakan
+// map-get (nama variabel , lalu apa yang akan dipanggil)
+
+// $alert-danger:red;
+// $alert-succes:green;
+// $alert-warning:orange;
+
+$alert: (
+    'danger' :red,
+    'succes' :green,
+    'warning' :orange
+);
+
+h1 {
+    color: map-get($alert , 'succes');
+}
