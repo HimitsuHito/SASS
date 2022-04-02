@@ -1,7 +1,7 @@
-// argumens pada mixin
 @use 'mixin';
+
 .container {
-    @include mixin.flex-box(row, space-evenly);
+    @include mixin.flex-box(row-reverse, space-evenly);
     width: 600px;
     height: 400px;
     background-color: #eaeaea;
