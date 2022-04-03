@@ -1,0 +1,115 @@
+body {
+  height: 1000px;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1xp 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 1xp 3px rgba(0, 0, 0, 0.4);
+}
+
+.circle-profile {
+  width: 100px;
+  height: 100px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1xp 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 1xp 3px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  background-color: transparent;
+  border-style: solid;
+  border-style: solid;
+  border-width: 2em;
+  border-left-color: blue;
+}
+
+.gradient {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #ef8bef;
+}
+
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #f094f0;
+}
+
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #f29df2;
+}
+
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #f3a6f3;
+}
+
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #f4aff4;
+}
+
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #f5b8f5;
+}
+
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #f7c1f7;
+}
+
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #f8caf8;
+}
+
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #f9d3f9;
+}
+
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #fadcfa;
+}
+
+.social {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.social .youtube {
+  color: #000;
+}
+
+.social .facebook {
+  color: green;
+}
+
+.social .instagram {
+  color: #7e357a;
+}
+
+.social .twitter {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
