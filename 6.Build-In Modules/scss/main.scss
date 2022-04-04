@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    padding: 0;
+}
+$warna-dasar:salmon;
+@mixin font(){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+// built-in Modules:color;
+// //color.adjust($color,
+// $red: null, $green: null, $blue: null,
+// $hue: null, $saturation: null, $lightness: null,
+// $whiteness: null, $blackness: null,
+// $alpha: null) 
+
+// untuk memanipulasi warna bisa gunakan adjust-color : dengan cara warna nya diganti" seperti rgba
+
+// h1 {
+//     color:adjust-color($color: $warna-dasar, $red: 2, $green: 2, $blue:1);
+// }
+
+
+
+// adjust-hue($color, $degree);
+// merubah warna sesuai derajat
+// h1 {
+//     color:adjust-hue($warna-dasar, $degrees: -30deg);
+// }
+
+// complement($color)
+// warna berlawanan dari dasar
+// h1{
+//     @include font();
+//     color:complement($warna-dasar);
+// }
+
+// darken ($color,$amount);
+// semakin jauh dari roda warnanya
+
+// sedangkan lighten kebaliknya. akan makin ketengah roda warna-nya
+// h1 {
+//     @include font();
+//     color:darken($warna-dasar, 30%);
+// }
+
+// saturation($color,$mount)
+// menambahkan warna warna 
+
+// desaturaiont($color,$mount);
+// ngilangin warna
+// h1 {
+//     color:desaturate($warna-dasar, $amount: 100%);
+// }
+
+// grayscale
+// berfungsi untuk membuat abu" warna
+// h1 {
+//     color:grayscale($warna-dasar)
+// }
+
+// mix($color, $color2, $weigth:50%);
+// mengabungkan kedua warna
+// h1 {
+//     color:mix($warna-dasar,red, 80%);
+// }
+
+// fade-in($color,$amount);
+// mengatur transparansi
+
+// fade-out($color,$amount)
+// opacity dikurangi
+h1 {
+    color:fade-out($warna-dasar,0.1);
+}
